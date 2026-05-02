@@ -1,12 +1,22 @@
 body {
-    font-family: Arial;
-    background: #f4f4f4;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', sans-serif;
 }
 
-.container {
-    width: 400px;
-    margin: 50px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
+.card {
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
