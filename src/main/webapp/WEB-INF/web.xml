@@ -1,0 +1,33 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+
+    <servlet>
+        <servlet-name>AddTaskServlet</servlet-name>
+        <servlet-class>com.app.servlet.AddTaskServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddTaskServlet</servlet-name>
+        <url-pattern>/addTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteTaskServlet</servlet-name>
+        <servlet-class>com.app.servlet.DeleteTaskServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteTaskServlet</servlet-name>
+        <url-pattern>/deleteTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TaskListServlet</servlet-name>
+        <servlet-class>com.app.servlet.TaskListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TaskListServlet</servlet-name>
+        <url-pattern>/tasks</url-pattern>
+    </servlet-mapping>
+
+</web-app>
